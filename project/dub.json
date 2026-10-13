@@ -1,0 +1,27 @@
+{
+	"authors": [
+		"mike"
+	],
+	"copyright": "Copyright © 2025, mike",
+	"dependencies": {
+		"bindbc-freetype": "~>0.1.0",
+		"bindbc-opengl": "~>1.1.1",
+		"bindbc-sdl": "~>2.0",
+		"pyd": "~>0.14.4"
+	},
+    "versions":[
+		"FT_27",
+        "GL_41",
+		"SDL_TTF_3_2",
+		"SDL_Mixer_3_0"
+    ],
+	"dflags":["-mixin=mixin.txt"],
+    "stringImportPaths":["."],
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "aim_trainer",
+	"targetName": "Aim Trainer",
+	"subConfigurations": {
+		"pyd": "python310"
+	}
+}

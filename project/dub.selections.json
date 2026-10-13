@@ -1,0 +1,11 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"bindbc-common": "1.0.5",
+		"bindbc-freetype": "1.2.6",
+		"bindbc-loader": "1.1.5",
+		"bindbc-opengl": "1.1.1",
+		"bindbc-sdl": "2.2.0",
+		"pyd": "0.14.5"
+	}
+}
